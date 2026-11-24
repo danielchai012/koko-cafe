@@ -50,15 +50,15 @@
   var lbClose = lightbox ? lightbox.querySelector(".lightbox__close") : null;
 
   function openPhoto(trigger) {
-    if (!lightbox || !lbImg) return;
+    if (!lightbox || !lbImg || typeof lightbox.showModal !== "function") return;
     var src = trigger.getAttribute("data-full") || trigger.getAttribute("data-src");
     if (!src) return;
     lbImg.setAttribute("src", src);
     lbImg.setAttribute("alt", trigger.getAttribute("data-alt") || "");
     if (lbTitle) lbTitle.textContent = trigger.getAttribute("data-title") || "照片";
     if (lbNote) lbNote.textContent = trigger.getAttribute("data-note") || "";
-    if (typeof lightbox.showModal === "function") lightbox.showModal();
-    else lightbox.setAttribute("open", "");
+    lightbox.showModal();
+    if (lbClose) lbClose.focus();
   }
 
   document.addEventListener("click", function (event) {

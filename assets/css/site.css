@@ -391,15 +391,18 @@ main section[id], main div[id] { scroll-margin-block-start: calc(var(--header-h)
 .lightbox {
   border: 0;
   padding: 0;
-  max-width: min(96vw, 980px);
+  margin: auto;
   width: 100%;
+  max-width: min(96vw, 980px);
+  max-height: 92vh;
+  overflow: hidden;
   background: var(--deep);
   color: var(--deep-ink);
   border-radius: var(--radius-m);
   box-shadow: 0 24px 60px rgba(13, 33, 26, 0.45);
 }
 .lightbox::backdrop { background: rgba(13, 33, 26, 0.82); }
-.lightbox[open] { display: grid; grid-template-rows: auto auto; }
+.lightbox[open] { display: grid; grid-template-rows: auto 1fr auto; }
 .lightbox__bar { display: flex; align-items: center; gap: var(--sp-3); padding: var(--sp-3) var(--sp-4); }
 .lightbox__title { font-size: var(--fs-small); font-weight: 700; }
 .lightbox__close {
@@ -420,9 +423,9 @@ main section[id], main div[id] { scroll-margin-block-start: calc(var(--header-h)
   transition: background-color var(--dur-1) var(--ease-out);
 }
 .lightbox__close:hover { background: rgba(233, 238, 232, 0.16); }
-.lightbox__figure { padding: 0 var(--sp-4) var(--sp-4); }
-.lightbox__figure img { margin-inline: auto; max-height: 74vh; width: auto; }
-.lightbox__note { padding: var(--sp-2) var(--sp-4) var(--sp-4); font-size: var(--fs-micro); color: var(--deep-soft); }
+.lightbox__figure { margin: 0; padding: 0 var(--sp-4) var(--sp-4); min-height: 0; }
+.lightbox__figure img { display: block; margin-inline: auto; width: auto; max-width: 100%; max-height: 68vh; }
+.lightbox__note { margin: 0; padding: var(--sp-2) var(--sp-4) var(--sp-4); font-size: var(--fs-micro); color: var(--deep-soft); }
 
 /* ---------- reviews ---------- */
 
