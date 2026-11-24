@@ -1,0 +1,68 @@
+{
+  "project": "KOKO Cafe Langkawi 品牌形象頁與菜單",
+  "collectedAt": "2026-11-24",
+  "business": {
+    "name": "KOKO Cafe Langkawi (Vege, Muslim Friendly)",
+    "placeUrl": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA",
+    "googlePlaceId": "16s/g/11mrnrfpvf",
+    "address": "GF2, Langkawi Mall, Persiaran Bunga Raya, Kuah, 07000 Langkawi, Kedah, Malaysia",
+    "phone": "+60 11-1064 9168",
+    "hoursAsRecorded": "每日 09:00–18:00（店家 Instagram 曾公告 11 月起改至 17:00）",
+    "priceRange": "人均 RM 20–40（47 位顧客回報）",
+    "rating": "Google 地圖 4.9 / 5，85 則評論",
+    "social": {
+      "instagram": "https://www.instagram.com/kokocafe.lgk/",
+      "facebook": "https://www.facebook.com/p/KOKO-Cafe-61584408063703/",
+      "linktree": "https://linktr.ee/kokocafelgk"
+    }
+  },
+  "textSources": [
+    {
+      "field": "菜單分類與品項名稱、招牌餐點照片",
+      "source": "KOKO Cafe Langkawi 的 Google 地圖「菜單」頁（11 個分類、12 張精選餐點照片）",
+      "url": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA"
+    },
+    {
+      "field": "開幕時間、品項描述、可換燕麥奶、純素可調整",
+      "source": "HappyCow 該店頁面與公開評論",
+      "url": "https://www.happycow.net/reviews/koko-cafe-langkawi-490627"
+    },
+    {
+      "field": "店名由來（手語大猩猩 Koko）、Spanish Latte 新品、早午餐菜單預告",
+      "source": "店家 Instagram @kokocafe.lgk 貼文（透過搜尋引擎索引取得文字，原站點在此網路環境無法直接連線）",
+      "url": "https://www.instagram.com/kokocafe.lgk/"
+    },
+    {
+      "field": "評論引文",
+      "source": "HappyCow 公開評論：Yi-Chien（2026-01-22）、Gemkvegan（2026-01-20）、·X·（2026-06-21）",
+      "url": "https://www.happycow.net/reviews/koko-cafe-langkawi-490627"
+    }
+  ],
+  "notCollected": [
+    "品項價格：公開來源僅有菜單照片，無可引用的文字價格，網站一律標示「以店內菜單為準」，未編造任何數字。",
+    "菜單實拍目前只有 1 張高解析版本（menu-card-01.jpg）；Google 地圖菜單相簿另有 4 張，需向店家取得原始檔案後補上。",
+    "Facebook 與 Instagram 在此網路環境連線被重置，未能直接抓取兩站的相簿與限時動態照片。"
+  ],
+  "images": [
+    { "file": "assets/photos/hero-cover.jpg", "title": "KOKO Cafe Langkawi 攤位主圖", "author": "店家 Google 地圖攤位", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖店家照片（版權屬店家／上傳者）", "usedOn": [] },
+    { "file": "assets/photos/ambience-01.jpg", "title": "用餐空間（氛圍相簿）", "author": "Google 地圖顧客/店家相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": ["index.html 首屏背景", "index.html 空間相簿"] },
+    { "file": "assets/photos/menu-card-01.jpg", "title": "店內菜單第 1 頁", "author": "店家 Google 地圖菜單相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["menu.html 菜單實拍"] },
+    { "file": "assets/photos/dish-nasi-lemak-mushroom-chop.jpg", "title": "Nasi Lemak Mushroom Chop", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 品牌故事", "index.html 招牌餐點", "menu.html FOOD"] },
+    { "file": "assets/photos/drink-hot-rose-latte.jpg", "title": "Hot Rose Latte", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 招牌餐點", "menu.html Hot Coffee"] },
+    { "file": "assets/photos/drink-hot-matcha-latte.jpg", "title": "Hot Matcha Latte", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 招牌餐點", "menu.html Non-Coffee"] },
+    { "file": "assets/photos/dish-kolo-mee.jpg", "title": "Kolo Mee", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 招牌餐點", "menu.html FOOD"] },
+    { "file": "assets/photos/dish-kampung-fried-rice.jpg", "title": "Kampung Fried Rice with Mushroom Chop", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 招牌餐點", "menu.html FOOD"] },
+    { "file": "assets/photos/dish-veg-wonton-noodles.jpg", "title": "Vegetarian Wonton Noodles with Greens", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["menu.html FOOD"] },
+    { "file": "assets/photos/dish-set-b.jpg", "title": "Set B", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 空間相簿", "menu.html Breakfast / Brunch"] },
+    { "file": "assets/photos/dish-croissant-sandwich.jpg", "title": "Croissant Sandwich", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 空間相簿", "menu.html Breakfast / Brunch"] },
+    { "file": "assets/photos/dish-kaya-toast.jpg", "title": "咖椰吐司", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 招牌餐點", "menu.html Breakfast / Brunch"] },
+    { "file": "assets/photos/drink-chocolate-frappe.jpg", "title": "Chocolate Frappe", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 空間相簿", "menu.html Frappe"] },
+    { "file": "assets/photos/drink-water-kefir-shoots.jpg", "title": "Water Kefir Shoots", "author": "店家 Google 地圖精選餐點", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖菜單照片", "usedOn": ["index.html 空間相簿", "menu.html Kombucha & Water Kefir"] },
+    { "file": "assets/photos/food-nasi-lemak.jpg", "title": "椰漿飯（Nasi Lemak）", "author": "Google 地圖「椰漿飯」相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": ["index.html 空間相簿", "menu.html Special"] },
+    { "file": "assets/photos/food-laksa.jpg", "title": "叻沙", "author": "Google 地圖「叻沙」相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": ["index.html 空間相簿", "menu.html Special"] },
+    { "file": "assets/photos/food-udon.jpg", "title": "烏龍麵", "author": "Google 地圖「烏龍麵」相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": ["index.html 空間相簿"] },
+    { "file": "assets/photos/food-soup.jpg", "title": "湯品", "author": "Google 地圖「湯」相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": ["index.html 空間相簿"] },
+    { "file": "assets/photos/food-latte.jpg", "title": "拿鐵咖啡", "author": "Google 地圖「拿鐵咖啡」相簿", "source": "https://maps.app.goo.gl/8ypFsGQqxKsY5c7LA", "license": "Google 地圖照片（版權屬上傳者）", "usedOn": [] }
+  ],
+  "usageNote": "照片取自店方在 Google 地圖的公開相簿，版權仍屬店方或上傳者。此網站若要正式上線，建議向 KOKO Cafe 取得原始照片檔並替換 assets/photos/ 下的同名檔案；hero-cover.jpg 與 food-latte.jpg 目前尚未排入頁面，可作為替補。"
+}

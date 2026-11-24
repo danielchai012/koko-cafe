@@ -1,0 +1,13 @@
+# Open Design 工作檔與系統暫存檔（不列入公開網站）
+.file-versions/
+*.artifact.json
+.comment-*.json
+.od-project*
+.od-frames/
+.od-skills/
+.od-next/
+.hyperframes-cache/
+.codegraph/
+*.tmp
+Thumbs.db
+.DS_Store
